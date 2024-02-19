@@ -19,8 +19,7 @@ class biggestOfThree {
         b = 10;
         c = 3;
         largest = biggestOfThree(a, b, c);
-        System.out.println(largest
-                           + " is the largest number.");
+        System.out.println(largest+ " is the largest number.");
     }
 }
 
