@@ -1,11 +1,9 @@
-import java.util.Scanner;
+import java.util.io.*;
 
 public class fibanocci_series {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter the number of terms for Fibonacci series: ");
+        
         int n = scanner.nextInt();
 
         System.out.println("Fibonacci series up to " + n + " terms:\n");
